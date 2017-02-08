@@ -1,0 +1,72 @@
+html, body {
+   margin: 0px;
+   min-height: 100%;
+   width: 100%;
+   max-width: 1800px;
+   height: 100%;
+   width: 100%;
+   min-width: 320px;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    min-width: 320px;
+    background-color: #363839;
+}
+
+.main-row{
+    position: relative;
+    text-align: center;
+    top: 50%;
+    margin: 15 5 5 5;
+}
+
+.quote-container {
+    /*box is centered on the screen*/
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /*width and padding*/
+    min-width: 250px;
+    padding: 20px 15px 10px 15px;
+    position:fixed;
+
+    /*border*/
+    border-radius: 2%;
+    border: 1px solid #ccc;
+
+    /*color*/
+    background-color: #f3f3f3;
+}
+
+.quote-author{
+    text-align:right;
+    padding-top: 8px;
+}
+
+
+.buttons{
+    padding: 20px 15px 10px 15px;
+    color: white;
+
+}
+
+.new-quote:focus,
+.new-quote:hover{
+    color: white;
+    border:0px;
+}
+
+.twitter {
+    float: left;
+}
+
+
+.new-quote{
+    float: right;
+    color: white;
+    border:0px;
+}
